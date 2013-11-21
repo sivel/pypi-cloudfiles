@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='pypi-cloudfiles',
-    version='0.2.2',
+    version='0.1.0',
     description=('A setuptools wrapper script for uploading packages to '
                  'Rackspace CloudFiles and building a PyPI compatible index'),
     #long_description=open('README.rst').read(),
