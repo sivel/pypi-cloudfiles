@@ -172,7 +172,7 @@ or via the <a href="/simple/">simple</a> index.</p>
 """
 
     cont.store_object('index.html',
-                      '%s%s%s' % (header % dict(title='Welcome to'
+                      '%s%s%s' % (header % dict(title='Welcome to '
                                                       'pypi-cloudfiles!'),
                                   main % dict(count=len(packages),
                                               url=cont.cdn_uri),
