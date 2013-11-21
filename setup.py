@@ -5,7 +5,7 @@ setuptools.setup(
     version='0.1.0',
     description=('A setuptools wrapper script for uploading packages to '
                  'Rackspace CloudFiles and building a PyPI compatible index'),
-    #long_description=open('README.rst').read(),
+    long_description=open('README.rst').read(),
     keywords='rackspace cloudfiles pypi package packaging',
     author='Matt Martz',
     author_email='matt@sivel.net',
